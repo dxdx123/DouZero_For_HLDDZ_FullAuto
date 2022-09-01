@@ -139,7 +139,7 @@ def LocateAllOnImage(image, template, region=None, confidence=0.9):
 class GameHelper:
     def __init__(self):
         self.counter = QTime()
-        self.ScreenZoomRate = 1.25
+        self.ScreenZoomRate = 1.0
         self.Pics = {}
         self.PicsCV = {}
         st = time.time()
